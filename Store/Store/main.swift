@@ -12,7 +12,7 @@ protocol SKU {
     func priceEach() -> Int
 }
 
-class Item {
+class Item: SKU {
     let name: String
     private let priceEachValue: Int
 
